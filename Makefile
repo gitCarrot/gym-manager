@@ -5,3 +5,7 @@ db-up:
 # -v: volume 삭제
 db-down:
 	docker-compose down -v
+
+
+# netstat -a -o
+#"taskkill /f /pid PID번호"
