@@ -19,6 +19,7 @@ public class BulkPassEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer bulkPassSeq;
+
     private Integer packageSeq;
     private String userGroupId;
 
